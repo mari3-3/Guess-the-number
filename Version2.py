@@ -1,5 +1,4 @@
 import random
-from typing import Counter
 
 newton = random.randint(1, 10)
 print(newton)
@@ -9,7 +8,6 @@ print()
 print("Please guess any number from 1-10!!")
 print()
 number = int(input("Type a number!:"))
-
 
 while True:
  if number == newton:
