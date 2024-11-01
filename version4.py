@@ -1,6 +1,7 @@
 import random
 
 newton = random.randint(1, 10)
+print(newton)
 
 print("We are going to play a game called {Guess the Number!}")
 print()
@@ -13,20 +14,19 @@ guesses.append(number)
 
 counter = 1
 
-
 while counter <= 2:
  if number == newton:
     print()
-    print("You got it!")
+    print("YOU GOT IT {@_@}!")
     break
  else:
-    print()
     print("Wrong;p")
+    print()
+    print("You guessed:",guesses)
     print()
     number = int(input("Try again siily:"))
     guesses.append(number)
     counter += 1
 if counter == 3:
     print()
-    print("YOU LOSEEEEE >:P")
-    print("You guessed:",guesses)
+    print("WRONGG:><:YOU LOSEEEEE >:P")
