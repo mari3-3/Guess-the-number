@@ -14,7 +14,7 @@ guesses.append(number)
 
 counter = 1
 
-while counter <= 2:
+while counter <= 4:
  if number == newton:
     print()
     print("YOU GOT IT {@_@}!")
@@ -27,6 +27,8 @@ while counter <= 2:
     number = int(input("Try again siily:"))
     guesses.append(number)
     counter += 1
-if counter == 3:
+if counter == 5:
     print()
     print("WRONGG:><:YOU LOSEEEEE >:P")
+    print()
+    print("You guessed:",guesses)
