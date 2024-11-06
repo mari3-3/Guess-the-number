@@ -1,7 +1,6 @@
 import random
 
 newton = random.randint(1, 100)
-print(newton)
 
 print("We are going to play a game called {Guess the Number!}")
 print()
