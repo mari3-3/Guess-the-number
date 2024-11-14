@@ -57,6 +57,8 @@ while game:
             print()
             print(f"You used {counter}/5 guesses,you guessed:",guesses)
             print()
+            print(f"The number was: {newton}")
+            print("")
             played += 1
         if counter <= 5 and number == newton:
             print()
